@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex-nav ul {
+    display: flex;
+    list-style: none;
+    /* border: 2px solid red; */
+    margin: 0;
+    padding: 0;
+}
+
+.flex-nav li {
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 15px;
+    text-align: center;
+    display: block;
+}
+
+a:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
